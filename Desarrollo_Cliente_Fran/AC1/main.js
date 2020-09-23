@@ -13,9 +13,12 @@ alert (ALERT_MESSAGE);
 /* 2.A */
 let meses= ["Enero","Febrero","Marzo","Abril","Mayo","Junio","Julio","Agosto","Septiembre","Octubre","Noviembre","Diciembre"];
 
-meses.forEach(element => { console.log (element)
-    
-});
+meses.forEach(element => { console.log (element) });
+
 
 /* 2.B */
 console.table(meses);
+
+/* 3 */
+const values = [true, false, 5, "hola", [1,2,3], {age: 2, gender: 'male'}];
+values.forEach(element => {console.log(typeof element)});
